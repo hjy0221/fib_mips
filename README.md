@@ -1,1 +1,1 @@
-# 피보나치 mips asm
+# fibonacci mips asm
