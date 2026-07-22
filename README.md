@@ -1,27 +1,33 @@
-# fibonacci mips asm
-📌 개요
+# Fibonacci in MIPS Assembly
 
-이 프로그램은 MIPS 어셈블리로 구현된 피보나치 수(Fibonacci number) 계산 프로그램입니다.
-사용자로부터 정수를 입력받아 재귀 호출(recursion)을 이용하여 해당 번호의 피보나치 값을 계산하고 출력합니다.
+[한국어](#한국어) · [English](#english)
 
-📁 파일 설명
-main 함수
+## 한국어
 
-“Give a number:” 문구 출력
+사용자로부터 정수를 입력받아 재귀 호출로 피보나치 수를 계산하고 출력하는 MIPS 어셈블리 예제입니다.
 
-정수 입력받기
+### 동작
 
-입력된 값을 fib 함수에 전달하여 결과 계산
+1. `Give a number:` 프롬프트를 출력합니다.
+2. 정수를 입력받아 `fib` 함수에 전달합니다.
+3. `fib(0) = 0`, `fib(1) = 1`을 종료 조건으로 재귀 계산합니다.
+4. 계산된 값을 출력합니다.
 
-반환된 피보나치 수를 출력
+### 실행하기
 
-fib 함수
+`fib.asm`을 MARS 또는 QtSPIM과 같은 MIPS 시뮬레이터에서 열어 실행하세요.
 
-재귀적으로 피보나치 값을 계산
+## English
 
-종료 조건:
+A MIPS assembly example that reads an integer, calculates the corresponding Fibonacci number recursively, and prints the result.
 
-fib(0) = 0
+### Flow
 
-fib(1) = 1
+1. Print the `Give a number:` prompt.
+2. Read an integer and pass it to the `fib` function.
+3. Recurse using `fib(0) = 0` and `fib(1) = 1` as base cases.
+4. Print the calculated value.
 
+### Run
+
+Open and run `fib.asm` in a MIPS simulator such as MARS or QtSPIM.
