@@ -1,6 +1,6 @@
 # Fibonacci in MIPS Assembly
 
-[한국어](#한국어) · [English](#english)
+[한국어](#한국어) · [English](#english) · [日本語](#日本語)
 
 ## 한국어
 
@@ -31,3 +31,18 @@ A MIPS assembly example that reads an integer, calculates the corresponding Fibo
 ### Run
 
 Open and run `fib.asm` in a MIPS simulator such as MARS or QtSPIM.
+
+## 日本語
+
+整数を読み取り、再帰呼び出しでフィボナッチ数を計算して出力する MIPS アセンブリの例です。
+
+### 処理の流れ
+
+1. `Give a number:` というプロンプトを表示します。
+2. 整数を読み取り、`fib` 関数に渡します。
+3. `fib(0) = 0` と `fib(1) = 1` を再帰の終了条件として計算します。
+4. 計算結果を出力します。
+
+### 実行方法
+
+MARS や QtSPIM などの MIPS シミュレーターで `fib.asm` を開いて実行してください。
