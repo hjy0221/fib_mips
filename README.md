@@ -1,21 +1,21 @@
 # Fibonacci in MIPS Assembly
 
-[한국어](#한국어) · [English](#english) · [日本語](#日本語)
+[日本語](#日本語) · [English](#english) · [한국어](#한국어)
 
-## 한국어
+## 日本語
 
-사용자로부터 정수를 입력받아 재귀 호출로 피보나치 수를 계산하고 출력하는 MIPS 어셈블리 예제입니다.
+整数を読み取り、再帰呼び出しでフィボナッチ数を計算して出力する MIPS アセンブリの例です。
 
-### 동작
+### 処理の流れ
 
-1. `Give a number:` 프롬프트를 출력합니다.
-2. 정수를 입력받아 `fib` 함수에 전달합니다.
-3. `fib(0) = 0`, `fib(1) = 1`을 종료 조건으로 재귀 계산합니다.
-4. 계산된 값을 출력합니다.
+1. `Give a number:` というプロンプトを表示します。
+2. 整数を読み取り、`fib` 関数に渡します。
+3. `fib(0) = 0` と `fib(1) = 1` を再帰の終了条件として計算します。
+4. 計算結果を出力します。
 
-### 실행하기
+### 実行方法
 
-`fib.asm`을 MARS 또는 QtSPIM과 같은 MIPS 시뮬레이터에서 열어 실행하세요.
+MARS や QtSPIM などの MIPS シミュレーターで `fib.asm` を開いて実行してください。
 
 ## English
 
@@ -32,17 +32,17 @@ A MIPS assembly example that reads an integer, calculates the corresponding Fibo
 
 Open and run `fib.asm` in a MIPS simulator such as MARS or QtSPIM.
 
-## 日本語
+## 한국어
 
-整数を読み取り、再帰呼び出しでフィボナッチ数を計算して出力する MIPS アセンブリの例です。
+사용자로부터 정수를 입력받아 재귀 호출로 피보나치 수를 계산하고 출력하는 MIPS 어셈블리 예제입니다.
 
-### 処理の流れ
+### 동작
 
-1. `Give a number:` というプロンプトを表示します。
-2. 整数を読み取り、`fib` 関数に渡します。
-3. `fib(0) = 0` と `fib(1) = 1` を再帰の終了条件として計算します。
-4. 計算結果を出力します。
+1. `Give a number:` 프롬프트를 출력합니다.
+2. 정수를 입력받아 `fib` 함수에 전달합니다.
+3. `fib(0) = 0`, `fib(1) = 1`을 종료 조건으로 재귀 계산합니다.
+4. 계산된 값을 출력합니다.
 
-### 実行方法
+### 실행하기
 
-MARS や QtSPIM などの MIPS シミュレーターで `fib.asm` を開いて実行してください。
+`fib.asm`을 MARS 또는 QtSPIM과 같은 MIPS 시뮬레이터에서 열어 실행하세요.
