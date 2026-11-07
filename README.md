@@ -4,28 +4,28 @@
 
 ## 日本語
 
-整数を読み取り、再帰呼び出しでフィボナッチ数を計算して出力する MIPS アセンブリの例です。
+ユーザーから整数を受け取り、再帰呼び出しでフィボナッチ数を計算して出力するMIPSアセンブリの例です。
 
-### 処理の流れ
+### アクション
 
-1. `Give a number:` というプロンプトを表示します。
-2. 整数を読み取り、`fib` 関数に渡します。
-3. `fib(0) = 0` と `fib(1) = 1` を再帰の終了条件として計算します。
-4. 計算結果を出力します。
+1. `Give a number:` プロンプトを出力します。
+2.整数を入力して`fib`関数に渡します。
+3. `fib(0) = 0`、`fib(1) = 1`を終了条件として再帰計算します。
+4. 計算された値を出力します。
 
-### 実行方法
+### を実行する
 
-MARS や QtSPIM などの MIPS シミュレーターで `fib.asm` を開いて実行してください。
+`fib.asm`をMARSやQtSPIMなどのMIPSシミュレータで開いて実行します。
 
 ## English
 
-A MIPS assembly example that reads an integer, calculates the corresponding Fibonacci number recursively, and prints the result.
+This is a MIPS assembly example that receives an integer as input from the user and calculates and outputs the Fibonacci number through a recursive call.
 
-### Flow
+### Behavior
 
 1. Print the `Give a number:` prompt.
-2. Read an integer and pass it to the `fib` function.
-3. Recurse using `fib(0) = 0` and `fib(1) = 1` as base cases.
+2. Receive an integer and pass it to the `fib` function.
+3. Recursively calculate `fib(0) = 0`, `fib(1) = 1` as the termination condition.
 4. Print the calculated value.
 
 ### Run
