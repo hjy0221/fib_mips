@@ -4,6 +4,8 @@
 
 ## 日本語
 
+[日本語](https://github.com/hjy0221/fib_mips#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/fib_mips#english) · [한국어](https://github.com/hjy0221/fib_mips#%ED%95%9C%EA%B5%AD%EC%96%B4)
+
 ユーザーから整数を受け取り、再帰呼び出しでフィボナッチ数を計算して出力するMIPSアセンブリの例です。
 
 ### アクション
@@ -19,6 +21,8 @@
 
 ## English
 
+[日本語](https://github.com/hjy0221/fib_mips#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/fib_mips#english) · [한국어](https://github.com/hjy0221/fib_mips#%ED%95%9C%EA%B5%AD%EC%96%B4)
+
 This is a MIPS assembly example that receives an integer as input from the user and calculates and outputs the Fibonacci number through a recursive call.
 
 ### Behavior
@@ -33,6 +37,8 @@ This is a MIPS assembly example that receives an integer as input from the user 
 Open and run `fib.asm` in a MIPS simulator such as MARS or QtSPIM.
 
 ## 한국어
+
+[日本語](https://github.com/hjy0221/fib_mips#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/fib_mips#english) · [한국어](https://github.com/hjy0221/fib_mips#%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 사용자로부터 정수를 입력받아 재귀 호출로 피보나치 수를 계산하고 출력하는 MIPS 어셈블리 예제입니다.
 
